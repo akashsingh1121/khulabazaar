@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .archivo-fontname {
+            font-family: "Archivo", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        /* body {
+            font-family: a;
+        } */
+
+        .contact_heading {
+            margin: auto;
+            margin-top: 3%;
+            text-align: center;
+        }
+
+        .icon_con {
+            width: 78%;
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+            margin-top: 2%;
+        }
+
+        .icon_card {
+            width: 40%;
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            padding: 1.5%;
+        }
+
+        .icon_card h4 {
+            padding: 5%;
+        }
+
+        .icon_card p {
+            margin: 5% 5% 5% 14%;
+            color: #797979;
+        }
+
+        .contact_form {
+            width: 80%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin: auto;
+            border-radius: 20px;
+            margin-top: 5%;
+            padding: 1%;
+            margin-bottom: 5%;
+        }
+        .input_card{
+            margin-top: 5%;
+        }
+        .input_card input{
+            width: 100%;
+            border: none;
+            background-color: #F5F5F5;
+            padding: 3% 2%;
+            border-radius: 20px;
+            margin-top: 2%;
+        }
+        .input_maincon{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 5%;
+            padding: 2% 5%;
+        }
+        .message_card{
+            width: 90%;
+            margin: auto;
+            margin-top: 2%;
+        }
+        .message_card textarea{
+            border: none;
+            background-color: #F5F5F5;
+            margin-top: 1%;
+            margin-bottom: 2%;
+            border-radius: 20px;
+        }
+        .contact_subbut{
+            width: 15%;
+            margin: auto;
+
+        }
+        .contact_subbut button{
+            width: 100%;
+            margin-top: 5%;
+            border-radius: 30px;
+            padding: 5%;
+            margin-bottom: 5%;
+        }
+        
+        @media (min-width: 375px) and (max-width: 844px) {
+        
+            .icon_con {
+                display: block;
+                width: 75%;
+            }
+            .icon_card{
+                width: 96%;
+                padding: 5%;
+                margin-top: 5%;
+            }
+            .icon_card img{
+                width: 13%;
+            }
+            .icon_card h4{
+                font-size: 16px;
+                padding: 4%;
+            }
+            .icon_card p{
+                margin: 4% 2%;
+            }
+            .input_maincon{
+                display: block;
+            }
+            .input_card{
+                margin-top: 8%;
+            }
+            .input_card input{
+                padding: 5% 6%;
+                margin-top: 4%;
+            }
+            .contact_subbut{
+                width: 80%;
+                margin-top: 5%;
+            }
+        }
+    </style>
+</head>
+
+<body class="archivo-fontname">
+    <div class="contact_heading">
+        <h1>Get in touch today!</h1>
+        <div class="icon_con">
+            <div class="icon_card">
+                <img src="./new folder/mail_icon.svg" alt="">
+                <h4>Mail Us</h4>
+                <p>saasup@gmail.com</p>
+            </div>
+            <div class="icon_card">
+                <img src="./new folder/phone_icon.svg" alt="">
+                <h4>Call Us</h4>
+                <p>+001 6547 6589</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact_form">
+        <div class="input_maincon">
+            <div class="input_card">
+                <div>
+                    <label for="name">Full name *</label>
+                </div>
+                <input type="text" placeholder="john david">
+            </div>
+            <div class="input_card">
+                <div>
+                    <label for="name">Your email *</label>
+                </div>
+                <input type="email" placeholder="example@yourmail.com">
+            </div>
+            <div class="input_card">
+                <div>
+                    <label for="name">Company *</label>
+                </div>
+                <input type="text" placeholder="your company name here">
+            </div>
+            <div class="input_card">
+                <div>
+                    <label for="name">Subject *</label>
+                </div>
+                <input type="text" placeholder="How can we Help">
+            </div>
+            
+        </div>
+        <div class="message_card">
+            <div>
+                <label for="name">Message *</label>
+            </div>
+            <textarea rows="5" class="form-control" aria-label="With textarea" placeholder="Hello there,I would like to talk about how to..."></textarea>
+        </div>
+        <div class="contact_subbut">
+            <button type="button" class="btn btn-dark">Send Message</button>
+        </div>
+    </div>
+</body>
+
+</html>

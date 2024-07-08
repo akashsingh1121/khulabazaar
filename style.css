@@ -1,0 +1,477 @@
+.body{
+    font-family: 'Archivo', sans-serif !important;
+}
+
+/* navbar style  */
+.nav img{
+    /* width: 30%; */
+    padding: 2% 2% 2% 12%;
+}
+.nav{
+    width: 98%;
+}
+
+.nav button{
+   border-radius: 30px !important;
+}
+.nav_button{
+   padding: 1% 1% 1% 1%;
+}
+.gap{
+    margin-left: 3%;
+    padding: 2%;
+}
+
+/* heading container style */
+.heading_con{
+    width: 27%;
+    margin-top: 10%;
+}
+.heading_con h1{
+    font-size: 75px;
+    font-weight: 800 ;
+}
+.heading_con p{
+    font-size: 25px;
+}
+.heading_con button{
+    border-radius: 30px !important;
+    width: 40%;
+    padding: 10px 0px;
+}
+.heading_but{
+    margin: 10% 0%;
+}
+.gap1{
+    margin-left: 6%;
+}
+.main_con{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading_img{
+    margin-top: 3%;
+
+}
+
+/* services container style  */
+.services_con > h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+}  
+
+.all_service{
+    width: 100%;
+    justify-content: center;
+    gap: 3%;
+}
+
+.each_service{
+    width: 22% !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 5% 3%;
+    border-radius: 10%;
+}
+.each_service h2{
+    padding: 10% 0% 3% 0%;
+    font-weight: 700;
+    color: #1B4D5D;
+}
+.each_service p{
+    padding: 0% 18% 0% 18%;
+    font-weight: 600;
+    color: #3B4A53;
+}
+
+.each_service button{
+    color: 0E0E0E;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* trusted container style  */
+
+.maintrusted_con{
+    width: 100%;
+    margin: auto;
+    background-color: #F8F8F8BA;
+    margin-top: 10%;
+}
+
+.trust_con{
+    width: 90%;
+    margin: auto !important;
+    padding: 8%;
+}
+
+.trustheading_con h4 {
+    font-weight: 700;
+    padding: 1% 0% 0% 2%;
+}
+
+.text_con{
+    width: 100%;
+    margin-top: 2% !important;
+}
+
+.trustheading_con p{
+    padding: 1% 8%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.icon_con{
+    display: flex;
+}
+/* client review style  */
+
+.clients_heading h1{
+    width: 100% ;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 50px;
+    font-weight: 800;
+}
+.client_name{
+    margin-left: 2%;
+}
+.client_name h5{
+    text-align: left; 
+}
+
+.client_details{
+    display: flex;
+    gap: 1%;
+}
+
+    /* .review_icon{
+        width: 31%;
+    } */
+
+.review_con{
+    width: 36%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0% 33% ;
+}
+
+.review_con p{
+    margin-top: 4%;
+    font-weight: 500;
+    color: #363A3D;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+}
+/* create account summary style  */
+
+.create_account_con{
+    margin-top: 5%;
+    text-align: center;
+}  
+
+.create_account_con img{
+    margin: auto;
+}
+
+.create_account_con button{
+    position: absolute;
+    bottom: -285%;
+    right: 13%;
+    align-self: self-end;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-weight: 700;
+
+}
+
+/* footer style  */
+
+.footer_con{
+    background-color: #181715;
+    color: #FFFFFF;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.footer_width{
+    width: 80%;
+    margin: auto !important;
+    padding: 3%;
+}
+.footer_text{
+    padding: 5% 0%;
+}
+.footer_text button{
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 2% 6%; 
+}
+.footer_icons{
+    margin-bottom: 10%;
+}
+
+
+/* serivce page style  */
+
+.input_con{
+    width: 80%;
+    gap: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+}
+.inputgroup_div{
+    width: 60% !important;
+}
+
+.input_con input{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: #F5F5F5;
+}
+.search_button button{
+    /* width: 100%; */
+    display: flex;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.search_button button>img{
+    width: 20px;
+    padding: 7% 5% 7% 3%;
+}
+
+.button_radius{
+    display: flex;
+}
+
+/* .button_map{
+    font-size: 16px;
+    background-color: #D4D2E3;
+    border-radius: 30px;
+} */
+.button_map img{
+    padding: 0px 1px 4px 0px;
+}
+.ServicesMain_con{
+    width: 78%;
+    margin: auto;
+}
+
+.store_heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.card_con{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 30px;
+}
+.card_img img{
+    width: auto;
+    border-radius: 30px;
+}
+.card_detials {
+   padding: 4%;
+}
+.card_detials h4{
+    color: #1B4D5D;
+}
+.card_detials button{
+    width: 96%;
+    border-radius: 30px;
+}
+.cardMain_con{
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6% ;
+    margin: auto;
+}
+
+@media (min-width: 375px) and (max-width: 844px) {
+    .nav_button{
+        display: none;
+    }
+    .nav img{
+        width: 50%;
+       padding: 6% 2% 2% 6%;
+
+    }
+    .main_con {
+       /* display: none; */
+       display: block;
+    }
+    .heading_con{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .heading_con h1{
+        font-size: 40px;
+        font-weight: 800 ;
+    }
+    .heading_img img{
+        width: 90%;
+        /* margin: auto; */
+        margin: 6%;
+        margin-top: 12%;
+    }
+    .heading_con p{
+        font-size: 16px;
+        padding: 2% 12%;
+    }
+    .heading_but{
+        gap: 10%;
+        margin: 5% 0%;
+    }
+   
+    /* .services_con{
+        display: none;
+    } */
+
+    .services_con > h1{
+        font-size: 28px;
+        padding: 5%;
+    }
+
+    .all_service{
+        width: 100% !important;
+        margin: -1% 1% !important;
+    }
+
+    .each_service{
+        width: 70% !important;
+        margin: 10%;
+        padding: 5% 3%;
+
+    }
+
+    .each_service img{
+        width: 60%;
+    }
+    /* .maintrusted_con{
+        display: none;
+    } */
+    .trust_con {
+        width: auto;
+    }
+
+    .trustheading_con{
+        padding: 4%;
+    }
+
+    .trust_icon img{
+        width: 90%;
+        margin: auto;
+    }
+
+    .text_con{
+        padding: 4%;
+    }
+
+    .trustheading_con p{
+        padding: 0%;
+    }
+
+    .review_con{
+        width: 90%;
+        margin: 0%;
+    }
+    .review_con p{
+        font-size: 10px;
+    }
+    .client_name h3{
+        font-size: 15px;
+    }
+    .client_name h5{
+        font-size: 12px;
+    }
+    .client_details{
+        display: block;
+    }
+    .client_details img{
+         width: 12%;
+    }
+    .review_icon2 img{
+        width: 9%;
+    }
+    
+    .create_account_con img{
+        width: 90%;
+    }
+    .footer_width h4{
+        margin-top: 7%;
+    }
+
+    /* service page style  */
+
+    .input_con{
+        display: block;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .button_radius{
+        display: block;
+    }
+    .button_map{
+        width: 50% !important;
+    }
+    .input_con input{
+        width: 80%;
+        margin: 2% 5% 3% 9%;
+    }
+    .inputgroup_div{
+        width: 80% !important;
+        margin: 2% 7%;
+    }
+    .search_button button{
+        width: 80%;
+        display: block;
+        margin: 5% 6%;
+        margin-top: 5%;
+        font-size: 18px;
+        /* padding: 2% 2% 2% 2%; */
+        text-align: center;
+    }
+    .search_button button>img{
+        width: 18px;
+        padding: 0%;
+    }
+    .cardMain_con{
+        display: inline;
+    }
+    .card_img img{
+        width: 99%;
+    }
+    .card_con{
+        margin: 5%;
+    }
+    .viewmore{
+        width: auto;
+    }
+    .viewmore img{
+         width: 60%;
+         margin-left: 46%;
+    }
+    .ServicesMain_con{
+        width: 90%;
+    }
+    .store_heading{
+        margin: 5%;
+        margin-top: 15%;
+    }
+}
